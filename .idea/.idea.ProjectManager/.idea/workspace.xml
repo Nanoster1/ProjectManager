@@ -5,16 +5,34 @@
     <projectFile profileName="IIS Express">ProjectManager/ProjectManager.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a5cc911-45db-4ae9-bef7-4877b919d4b4" name="Changes" comment="Fix problems with start">
-      <change afterPath="$PROJECT_DIR$/ProjectManager/ProjectManager.csproj" afterDir="false" />
+    <list default="true" id="3a5cc911-45db-4ae9-bef7-4877b919d4b4" name="Changes" comment="Fix bags with start">
+      <change afterPath="$PROJECT_DIR$/ProjectManager/Models/Database/DbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectManager/Models/Database/Project.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectManager/Models/Database/Role.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectManager/Models/Database/Tags.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectManager/Models/Database/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectManager/Settings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectManager/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectManager/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectManager/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectManager/ProjectManager.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectManager/ProjectManager.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectManager/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectManager/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/37a954845b52703c5cce1aacf8fa1292378878e82bf68c4c4b5effc447316e9/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projects/ProjectManager/ProjectManager/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/Projects/ProjectManager/ProjectManager/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -74,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1641209697400</updated>
       <workItem from="1641209867687" duration="594000" />
-      <workItem from="1641223166313" duration="1863000" />
+      <workItem from="1641223166313" duration="7666000" />
     </task>
     <task id="LOCAL-00001" summary="InitialCommit">
       <created>1641209982261</created>
@@ -90,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641224771260</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fix bags with start">
+      <created>1641225069430</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641225069430</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +136,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="InitialCommit" />
     <MESSAGE value="Fix problems with start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix problems with start" />
+    <MESSAGE value="Fix bags with start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix bags with start" />
   </component>
 </project>

@@ -1,9 +1,21 @@
-using System.ComponentModel;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using ProjectManager;
+using DbContext = ProjectManager.Models.Database.DbContext;
 
 var builder = WebApplication.CreateBuilder(args);
+var services = builder.Services;
+var settings = new Settings(builder.Configuration);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+var mvcBuilder = services.AddControllersWithViews();
+services.AddDbContext<DbContext>(settings.SetDbOptions);
+services.AddIdentity<IdentityUser, IdentityRole>(settings.SetIdentityOptions).AddEntityFrameworkStores<DbContext>();
+
+if (builder.Environment.IsDevelopment())
+{
+    mvcBuilder.AddRazorRuntimeCompilation();
+}
 
 var app = builder.Build();
 
