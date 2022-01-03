@@ -1,3 +1,5 @@
+using System.ComponentModel;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -13,6 +15,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+BackgroundWorker bw = new();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
