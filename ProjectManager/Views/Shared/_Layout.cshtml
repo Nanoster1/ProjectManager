@@ -4,9 +4,8 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>@ViewData["Title"] - ProjectManager</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
     <link rel="stylesheet" href="~/ProjectManager.styles.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
 </head>
 <body>
 <header>
@@ -36,9 +35,41 @@
     </main>
 </div>
 
-<footer class="border-top footer text-muted">
-    <div class="container">
-        &copy; 2022 - ProjectManager - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+<footer class="footer">
+    <div class="container2">
+        <div class="row">
+            <div class="info-block">
+                <p>
+                    text1
+                </p>
+            </div>
+            <div class="info-block">
+                <p>
+                    text2
+                </p>
+            </div>
+            <div class="info-block">
+                <p>
+                    text3.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="image info-block">
+                
+            </div>
+            <p class="paragraph">Our social medeals:</p>
+            <ul class="icons info-block">
+                <li>
+                    <a href="https://github.com/Nanoster1/ProjectManager">
+                        <img width="25" height="25" src="~/assets/images/github.png">
+                    </a></li>
+                <li>
+                    <a href="">
+                        <img width="25" height="25" src="~/assets/images/discord.svg">
+                    </a></li>
+            </ul>
+        </div>
     </div>
 </footer>
 <script src="~/lib/jquery/dist/jquery.min.js"></script>

@@ -4,18 +4,31 @@
     <projectFile profileName="ProjectManager">ProjectManager/ProjectManager.csproj</projectFile>
     <projectFile profileName="IIS Express">ProjectManager/ProjectManager.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a5cc911-45db-4ae9-bef7-4877b919d4b4" name="Changes" comment="Fix problems with start">
-      <change afterPath="$PROJECT_DIR$/ProjectManager/ProjectManager.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectManager/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectManager/Program.cs" afterDir="false" />
+    <list default="true" id="3a5cc911-45db-4ae9-bef7-4877b919d4b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ProjectManager/wwwroot/assets/fonts/SecularOne-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectManager/wwwroot/assets/fonts/SnackerComic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectManager/ProjectManager.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectManager/ProjectManager.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectManager/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectManager/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectManager/Views/Shared/_Layout.cshtml.css" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectManager/Views/Shared/_Layout.cshtml.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectManager/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectManager/wwwroot/css/site.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/Projects/ProjectManager/ProjectManager/Program.cs" root0="SKIP_HIGHLIGHTING" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -30,6 +43,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -75,6 +91,7 @@
       <updated>1641209697400</updated>
       <workItem from="1641209867687" duration="594000" />
       <workItem from="1641223166313" duration="1863000" />
+      <workItem from="1641225160620" duration="13122000" />
     </task>
     <task id="LOCAL-00001" summary="InitialCommit">
       <created>1641209982261</created>

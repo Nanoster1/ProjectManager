@@ -14,5 +14,18 @@ html {
 }
 
 body {
+  margin-left: 0;
   margin-bottom: 60px;
+}
+@font-face {
+  font-family: "SnackerComic";
+  src: url("assets/fonts/SnackerComic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SecularOne";
+  src: url("assets/fonts/SecularOne-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }
