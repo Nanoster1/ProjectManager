@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ProjectManager;
+using ProjectManager.Models.Database;
 using DbContext = ProjectManager.Models.Database.DbContext;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,7 +11,7 @@ var settings = new Settings(builder.Configuration);
 // Add services to the container.
 var mvcBuilder = services.AddControllersWithViews();
 services.AddDbContext<DbContext>(settings.SetDbOptions);
-services.AddIdentity<IdentityUser, IdentityRole>(settings.SetIdentityOptions).AddEntityFrameworkStores<DbContext>();
+services.AddIdentityCore<User>(settings.SetIdentityOptions).AddEntityFrameworkStores<DbContext>();
 
 if (builder.Environment.IsDevelopment())
 {

@@ -5,22 +5,23 @@
     <projectFile profileName="IIS Express">ProjectManager/ProjectManager.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a5cc911-45db-4ae9-bef7-4877b919d4b4" name="Changes" comment="Fix bags with start">
-      <change afterPath="$PROJECT_DIR$/ProjectManager/Models/Database/DbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectManager/Models/Database/Project.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectManager/Models/Database/Role.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectManager/Models/Database/Tags.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectManager/Models/Database/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectManager/Settings.cs" afterDir="false" />
+    <list default="true" id="3a5cc911-45db-4ae9-bef7-4877b919d4b4" name="Changes" comment="Including Database and main settings">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectManager/Models/Database/DbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectManager/Models/Database/DbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectManager/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectManager/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectManager/ProjectManager.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectManager/ProjectManager.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectManager/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectManager/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -31,9 +32,13 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/37a954845b52703c5cce1aacf8fa1292378878e82bf68c4c4b5effc447316e9/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/37a954845b52703c5cce1aacf8fa1292378878e82bf68c4c4b5effc447316e9/IdentityUser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://D:/Projects/ProjectManager/ProjectManager/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectManager/Models/Database/Project.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://D:/Projects/ProjectManager/ProjectManager/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectManager/Models/Database/Role.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectManager/Models/Database/Tags.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectManager/Models/Database/User.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -92,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1641209697400</updated>
       <workItem from="1641209867687" duration="594000" />
-      <workItem from="1641223166313" duration="7666000" />
+      <workItem from="1641223166313" duration="8596000" />
     </task>
     <task id="LOCAL-00001" summary="InitialCommit">
       <created>1641209982261</created>
@@ -115,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641225069430</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Including Database and main settings">
+      <created>1641231230526</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1641231230526</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +138,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -137,6 +161,7 @@
     <MESSAGE value="InitialCommit" />
     <MESSAGE value="Fix problems with start" />
     <MESSAGE value="Fix bags with start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix bags with start" />
+    <MESSAGE value="Including Database and main settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Including Database and main settings" />
   </component>
 </project>
