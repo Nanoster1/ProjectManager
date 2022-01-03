@@ -15,7 +15,6 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-BackgroundWorker bw = new();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
