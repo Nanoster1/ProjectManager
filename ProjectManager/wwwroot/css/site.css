@@ -29,3 +29,41 @@ body {
   font-style: normal;
   font-weight: normal;
 }
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+.login{
+  margin-top:10%;
+  margin-bottom: 0;
+  width: 50%;
+  background: #f5f5f5;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 35px;
+}
+.sub-btn{
+  background:#fc2847;
+  padding:5%;
+  width: 80%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+}
+.login-block{
+  text-align: center;
+  padding: 6px;
+}
+.login-input{
+  border-radius: 6px;
+  width: 80%;
+}
+.login-label{
+  text-align: center;
+}
+.login-title{
+  font-size: 18px;
+  text-align: left;
+  padding: 5px;
+}

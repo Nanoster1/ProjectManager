@@ -1,17 +1,21 @@
 <form>
-    <div>
-        <p>
-            <label>Email</label>
-            <input type="text">
+    <div class="login center">
+        <h1 class="login-title">
+            Welcome to ProjectManager
+            You can post your projects
+        </h1>
+        <p class="login-block center"><label>Enter your email</label></p>
+        <p class="login-block center">
+            <input type="text" class="login-input center">
             @Html.ValidationMessage("Email")
         </p>
-        <p>
-            <label>Password</label>
-            <input type="password">
+        <p class="login-block center"><label>Enter your password</label></p>
+        <p class="login-block center">
+            <input type="password" class="login-input center">
             @Html.ValidationMessage("Password")
         </p>
-        <p>
-            <input type="submit" value="Sign In">
+        <p class="login-block center">
+            <input type="submit" value="Sign In" class="sub-btn">
         </p>
     </div>
 </form>
