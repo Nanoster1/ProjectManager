@@ -9,43 +9,26 @@ for details on configuring this project to bundle and minify static web assets. 
   background-color: #ff8c69;
   color: black;
   width: 100%;
-  font-size: 24px;
-  font-family: SecularOne;
-  font-weight: bold;
 }
 .container2 {
-  margin: 50px;
+  padding: 1.875rem;
+}
+.container3{
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.footer-section{
+  margin-bottom: 0.875rem;
 }
 .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.info-block{
-  flex: auto;
-  margin: 5px;
+.footer-text{
+  font-size: 18px;
+  font-family: SecularOne, serif;
+  font-weight: bold;
 }
-.icons{
-  list-style: none;
-  padding: 4px;
-  text-align: center;
-  vertical-align: middle;
-}
-.icons li{
-  float:left;
-  display: inline-block;
-  border: 1px solid black;
-  border-radius: 2px;
-  padding:2px 2px;
-  width: auto;
-  height: 50%;
-  margin-left: 10px;
-}
-.paragraph{
-  text-align: center;
-}
-.image{
-  width: 100%;
-  height: 100%;
-}
-
