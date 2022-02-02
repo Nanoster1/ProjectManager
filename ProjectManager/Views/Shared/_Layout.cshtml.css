@@ -9,11 +9,13 @@ for details on configuring this project to bundle and minify static web assets. 
   background-color: #05386B;
   color: white;
   width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 .container2 {
   padding: 1.875rem;
 }
-.container3{
+.container-horizontal{
   width: 100%;
   min-height: 1px;
   padding-left: 15px;
@@ -21,6 +23,12 @@ for details on configuring this project to bundle and minify static web assets. 
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
+}
+.container-vertical{
+  border-radius: 16px;
+  background: #05386B;
+  padding-right: 20px;
+  padding-left: 10px;
 }
 .footer-section{
   margin-bottom: 0.875rem;
@@ -60,13 +68,33 @@ ul li:not(:last-child) {
   width: 1rem;
   height: 1rem;
 }
-.shdw{
+.shadow{
   background: white;
   filter: drop-shadow(6px 6px 10px black);
 }
-.banner{
-  float:left;
+.content{
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
   height: 100%;
-  width: 20%;
-  background: #05386B;
+}
+.header{
+  float:right;
+  position: fixed;
+  flex-grow: 1 ;
+}
+.header-tittle-text{
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Encode Sans', sans-serif;;
+}
+.header-list{
+  list-style: none;
+  padding: 10px;
+}
+.menu{
+  padding-left: 1.275rem;
+  padding-right: 1.275rem;
+  height: 100%;
 }
