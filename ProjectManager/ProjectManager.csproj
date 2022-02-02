@@ -9,6 +9,7 @@
 
     <ItemGroup>
       <Folder Include="Models\Database" />
+      <Folder Include="wwwroot\assets\fonts" />
     </ItemGroup>
 
     <ItemGroup>

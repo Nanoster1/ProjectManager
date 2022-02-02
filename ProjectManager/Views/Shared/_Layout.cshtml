@@ -8,49 +8,62 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-        <div class="container-fluid">
-            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ProjectManager</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<header class="banner">
+    <p>
+        i am gay
+    </p>
 </header>
-<div class="container">
-    <main role="main" class="pb-3">
+<div>
+    <main>
         @RenderBody()
     </main>
 </div>
 
-<footer class="footer">
+<footer class="footer footer-tittle-text">
     <div class="container2">
-        <div class="row">
-            <div class="container3">
-                <section class="footer-section">
-                    <button></button>
-                </section>
-                <section class="footer-section">
-                    <button></button>
-                </section>
-            </div>
+        <div class="container3">
+            <section class="footer-section">
+                <p class="title">
+                    More to Explore
+                </p>
+                <ul class="footer-list footer-text">
+                    <li>
+                        <a>About Us</a>
+                    </li>
+                    <li>
+                        <a>Privacy Policy</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="footer-section">
+                <p class="title">
+                    Our Social
+                </p>
+                <ul class="footer-list footer-text">
+                    <li>
+                        <a href="https://github.com/Nanoster1/ProjectManager">
+                            <img width="16" height="16" role="img" src="~/assets/images/github.png" class="footer-icon shdw">
+                            <span class="footer-icon-name">GitHub</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Nanoster1/ProjectManager">
+                            <img width="16" height="16" role="img" src="~/assets/images/discord.svg" class="footer-icon shdw">
+                            <span class="footer-icon-name">Discord</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Nanoster1/ProjectManager">
+                            <img width="16" height="16" role="img" src="~/assets/images/telegram.png" class="footer-icon shdw">
+                            <span class="footer-icon-name">Telegram</span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
         </div>
     </div>
 </footer>
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
-<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="~/js/site.js" asp-append-version="true"></script>
 @await RenderSectionAsync("Scripts", required: false)
 </body>
