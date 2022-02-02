@@ -9,86 +9,87 @@
 </head>
 <body>
 <div class="content">
-    <div>
-        <main>
-            @RenderBody()
-        </main>
-    </div>
-    <header class="header header-tittle-text">
-        <div class="menu">
-            <div class="container-vertical">
-                <ul class="header-list">
-                    <li>
-                        <a href="">
-                            <img width="16" height="16" role="img" src="~/assets/images/github.png" class="footer-icon shadow">
-                            <span class="footer-icon-name">GitHub</span>
-                        </a></li>
-                    <li>
-                        <a href="">
-                            <img width="16" height="16" role="img" src="~/assets/images/github.png" class="footer-icon shadow">
-                            <span class="footer-icon-name">GitHub</span>
-                        </a></li>
-                    <li>
-                        <a href="">
-                            <img width="16" height="16" role="img" src="~/assets/images/github.png" class="footer-icon shadow">
-                            <span class="footer-icon-name">GitHub</span>
-                        </a></li>
-                    <li>
-                        <a href="">
-                            <img width="16" height="16" role="img" src="~/assets/images/github.png" class="footer-icon shadow">
-                            <span class="footer-icon-name">GitHub</span>
-                        </a></li>
+        <div class="main">
+            <main>
+                @RenderBody()
+            </main>
+        </div>
+        <header class="header">
+            <div class="menu header-tittle-text">
+                <div class="container-vertical">
+                    <ul class="header-list">
+                        <li>
+                            <a href="">
+                                <img width="16" height="16" role="img" src="~/assets/images/github.png" class="footer-icon shadow">
+                                <span class="footer-icon-name">GitHub</span>
+                            </a></li>
+                        <li>
+                            <a href="">
+                                <img width="16" height="16" role="img" src="~/assets/images/github.png" class="footer-icon shadow">
+                                <span class="footer-icon-name">GitHub</span>
+                            </a></li>
+                        <li>
+                            <a href="">
+                                <img width="16" height="16" role="img" src="~/assets/images/github.png" class="footer-icon shadow">
+                                <span class="footer-icon-name">GitHub</span>
+                            </a></li>
+                        <li>
+                            <a href="">
+                                <img width="16" height="16" role="img" src="~/assets/images/github.png" class="footer-icon shadow">
+                                <span class="footer-icon-name">GitHub</span>
+                            </a></li>
     
-                </ul>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </div>
+    
+    <footer class="footer footer-tittle-text">
+        <div class="container2">
+            <div class="container-horizontal">
+                <section class="footer-section">
+                    <p class="title">
+                        More to Explore
+                    </p>
+                    <ul class="footer-list footer-text">
+                        <li>
+                            <a>About Us</a>
+                        </li>
+                        <li>
+                            <a>Privacy Policy</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="footer-section">
+                    <p class="title">
+                        Our Social
+                    </p>
+                    <ul class="footer-list footer-text">
+                        <li>
+                            <a href="https://github.com/Nanoster1/ProjectManager">
+                                <img width="16" height="16" role="img" src="~/assets/images/github.png" class="footer-icon shadow">
+                                <span class="footer-icon-name">GitHub</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Nanoster1/ProjectManager">
+                                <img width="16" height="16" role="img" src="~/assets/images/discord.svg" class="footer-icon shadow">
+                                <span class="footer-icon-name">Discord</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Nanoster1/ProjectManager">
+                                <img width="16" height="16" role="img" src="~/assets/images/telegram.png" class="footer-icon shadow">
+                                <span class="footer-icon-name">Telegram</span>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
             </div>
         </div>
-    </header>
-</div>
+    </footer>
 
-<footer class="footer footer-tittle-text">
-    <div class="container2">
-        <div class="container-horizontal">
-            <section class="footer-section">
-                <p class="title">
-                    More to Explore
-                </p>
-                <ul class="footer-list footer-text">
-                    <li>
-                        <a>About Us</a>
-                    </li>
-                    <li>
-                        <a>Privacy Policy</a>
-                    </li>
-                </ul>
-            </section>
-            <section class="footer-section">
-                <p class="title">
-                    Our Social
-                </p>
-                <ul class="footer-list footer-text">
-                    <li>
-                        <a href="https://github.com/Nanoster1/ProjectManager">
-                            <img width="16" height="16" role="img" src="~/assets/images/github.png" class="footer-icon shadow">
-                            <span class="footer-icon-name">GitHub</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/Nanoster1/ProjectManager">
-                            <img width="16" height="16" role="img" src="~/assets/images/discord.svg" class="footer-icon shadow">
-                            <span class="footer-icon-name">Discord</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/Nanoster1/ProjectManager">
-                            <img width="16" height="16" role="img" src="~/assets/images/telegram.png" class="footer-icon shadow">
-                            <span class="footer-icon-name">Telegram</span>
-                        </a>
-                    </li>
-                </ul>
-            </section>
-        </div>
-    </div>
-</footer>
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/js/site.js" asp-append-version="true"></script>
 @await RenderSectionAsync("Scripts", required: false)

@@ -1,11 +1,17 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+.layout{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  min-width: 100%;
+}
 .footer {
   margin: 0;
   position: fixed;
   bottom: 0;
-  display: table-row;
+  display: block;
   background-color: #05386B;
   color: white;
   width: 100%;
@@ -29,6 +35,7 @@ for details on configuring this project to bundle and minify static web assets. 
   background: #05386B;
   padding-right: 20px;
   padding-left: 10px;
+  height: 100%;
 }
 .footer-section{
   margin-bottom: 0.875rem;
@@ -77,6 +84,7 @@ ul li:not(:last-child) {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap-reverse;
+  align-items: stretch;
   height: 100%;
 }
 .header{
@@ -92,9 +100,13 @@ ul li:not(:last-child) {
 .header-list{
   list-style: none;
   padding: 10px;
+  margin: 0;
 }
 .menu{
-  padding-left: 1.275rem;
-  padding-right: 1.275rem;
+  display: block;
+  padding: 1.275rem;
+  height: 100%;
+}
+.main{
   height: 100%;
 }
