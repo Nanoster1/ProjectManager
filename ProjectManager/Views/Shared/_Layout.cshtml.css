@@ -114,7 +114,10 @@ ul li:not(:last-child) {
   height: 50px;
   width: 100px;
   z-index: 4;
+}
+.m{
   margin-right: 20px;
+  scroll-margin-right: 20px;
 }
 #sing-up{
   height: 50px;
