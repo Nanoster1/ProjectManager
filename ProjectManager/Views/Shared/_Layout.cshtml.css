@@ -79,34 +79,46 @@ ul li:not(:last-child) {
   background: white;
   filter: drop-shadow(6px 6px 10px black);
 }
-.content{
-  margin: 0;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap-reverse;
-  align-items: stretch;
-  height: 100%;
-}
-.header{
-  float:right;
-  position: fixed;
-  flex-grow: 1 ;
-}
-.header-tittle-text{
+.header-text{
   font-size: 24px;
   font-weight: 600;
   font-family: 'Encode Sans', sans-serif;;
 }
-.header-list{
-  list-style: none;
-  padding: 10px;
-  margin: 0;
-}
-.menu{
-  display: block;
-  padding: 1.275rem;
-  height: 100%;
-}
 .main{
   height: 100%;
 }
+.head{
+  background: #05386B;
+  width: 100%;
+  min-height: 60px;
+  margin: 0;
+  box-shadow: 0 1px 3px 0 #888;
+  display: inline-flex;
+  z-index: 2;
+}
+.pad{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.ico{
+  padding-left: 20px;
+  float:left;
+}
+.profile{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  display: inline-flex;
+}
+#sing-in{
+  height: 50px;
+  width: 100px;
+  z-index: 4;
+  margin-right: 20px;
+}
+#sing-up{
+  height: 50px;
+  width: 100px;
+  z-index: 4
+}
+

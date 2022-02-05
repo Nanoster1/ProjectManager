@@ -8,87 +8,72 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
 </head>
 <body>
-<div class="content">
-        <div class="main">
-            <main>
-                @RenderBody()
-            </main>
-        </div>
-        <header class="header">
-            <div class="menu header-tittle-text">
-                <div class="container-vertical">
-                    <ul class="header-list">
-                        <li>
-                            <a href="">
-                                <img width="16" height="16" role="img" src="~/assets/images/github.png" class="footer-icon shadow">
-                                <span class="footer-icon-name">GitHub</span>
-                            </a></li>
-                        <li>
-                            <a href="">
-                                <img width="16" height="16" role="img" src="~/assets/images/github.png" class="footer-icon shadow">
-                                <span class="footer-icon-name">GitHub</span>
-                            </a></li>
-                        <li>
-                            <a href="">
-                                <img width="16" height="16" role="img" src="~/assets/images/github.png" class="footer-icon shadow">
-                                <span class="footer-icon-name">GitHub</span>
-                            </a></li>
-                        <li>
-                            <a href="">
-                                <img width="16" height="16" role="img" src="~/assets/images/github.png" class="footer-icon shadow">
-                                <span class="footer-icon-name">GitHub</span>
-                            </a></li>
-    
-                    </ul>
-                </div>
+<header>
+    <div class="head">
+        <div class="ico pad"><a href="#"><img src="~/assets/images/logo.png" width="100" height="50"></a></div>
+        <div class="profile pad">
+            <div id = "sign-in">
+                <button class="center">
+                    <p class="header-text default">Sign In</p>
+                </button>
             </div>
-        </header>
+            <div id="sign-up">
+                <button class="center">
+                    <p class="header-text default">Sign Up</p>
+                </button>
+            </div>
+        </div>
     </div>
-    
-    <footer class="footer footer-tittle-text">
-        <div class="container2">
-            <div class="container-horizontal">
-                <section class="footer-section">
-                    <p class="title">
-                        More to Explore
-                    </p>
-                    <ul class="footer-list footer-text">
-                        <li>
-                            <a>About Us</a>
-                        </li>
-                        <li>
-                            <a>Privacy Policy</a>
-                        </li>
-                    </ul>
-                </section>
-                <section class="footer-section">
-                    <p class="title">
-                        Our Social
-                    </p>
-                    <ul class="footer-list footer-text">
-                        <li>
-                            <a href="https://github.com/Nanoster1/ProjectManager">
-                                <img width="16" height="16" role="img" src="~/assets/images/github.png" class="footer-icon shadow">
-                                <span class="footer-icon-name">GitHub</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/Nanoster1/ProjectManager">
-                                <img width="16" height="16" role="img" src="~/assets/images/discord.svg" class="footer-icon shadow">
-                                <span class="footer-icon-name">Discord</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/Nanoster1/ProjectManager">
-                                <img width="16" height="16" role="img" src="~/assets/images/telegram.png" class="footer-icon shadow">
-                                <span class="footer-icon-name">Telegram</span>
-                            </a>
-                        </li>
-                    </ul>
-                </section>
-            </div>
+</header>
+<div>
+    <main>
+        @RenderBody()
+    </main>
+</div>
+<footer class="footer footer-tittle-text">
+    <div class="container2">
+        <div class="container-horizontal">
+            <section class="footer-section">
+                <p class="title">
+                    More to Explore
+                </p>
+                <ul class="footer-list footer-text">
+                    <li>
+                        <a>About Us</a>
+                    </li>
+                    <li>
+                        <a>Privacy Policy</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="footer-section">
+                <p class="title">
+                    Our Social
+                </p>
+                <ul class="footer-list footer-text">
+                    <li>
+                        <a href="https://github.com/Nanoster1/ProjectManager">
+                            <img width="16" height="16" role="img" src="~/assets/images/github.png" class="footer-icon shadow">
+                            <span class="footer-icon-name">GitHub</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Nanoster1/ProjectManager">
+                            <img width="16" height="16" role="img" src="~/assets/images/discord.svg" class="footer-icon shadow">
+                            <span class="footer-icon-name">Discord</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Nanoster1/ProjectManager">
+                            <img width="16" height="16" role="img" src="~/assets/images/telegram.png" class="footer-icon shadow">
+                            <span class="footer-icon-name">Telegram</span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
         </div>
-    </footer>
+    </div>
+</footer>
 
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/js/site.js" asp-append-version="true"></script>

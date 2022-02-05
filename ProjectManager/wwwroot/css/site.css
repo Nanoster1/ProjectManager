@@ -20,12 +20,22 @@ body {
   background: #5cdb95;
   height: 100%;
 }
-
+.default{
+  margin: 0;
+  padding: 0;
+}
+.hide{
+  position: fixed;
+}
 .center{
-  margin-left: auto;
-  margin-right: auto;
-  height: 100%;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.max-size{
   width: 100%;
+  height: 100%;
 }
 .login{
   margin-top:10%;
