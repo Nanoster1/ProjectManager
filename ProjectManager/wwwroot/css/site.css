@@ -25,7 +25,8 @@ body {
   padding: 0;
 }
 .hide{
-  position: fixed;
+  position: absolute;
+  z-index: -1;
 }
 .center{
   position: relative;
@@ -70,4 +71,7 @@ body {
   font-size: 18px;
   text-align: left;
   padding: 5px;
+}
+.flex-grow {
+  flex-grow: 1;
 }

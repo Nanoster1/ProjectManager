@@ -93,7 +93,9 @@ ul li:not(:last-child) {
   min-height: 60px;
   margin: 0;
   box-shadow: 0 1px 3px 0 #888;
-  display: inline-flex;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
   z-index: 2;
 }
 .pad{
@@ -108,7 +110,15 @@ ul li:not(:last-child) {
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
-  display: inline-flex;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  align-content: center;
+}
+.sing{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #sing-in{
   height: 50px;
@@ -122,6 +132,6 @@ ul li:not(:last-child) {
 #sing-up{
   height: 50px;
   width: 100px;
-  z-index: 4
+  z-index: 3
 }
 
