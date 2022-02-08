@@ -9,12 +9,10 @@ for details on configuring this project to bundle and minify static web assets. 
 }
 .footer {
   margin: 0;
-  position: fixed;
-  bottom: 0;
+  position: static;
   display: block;
   background-color: #05386B;
-  color: white;
-  width: 100%;
+  color: #EDF5E1;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -76,7 +74,7 @@ ul li:not(:last-child) {
   height: 1rem;
 }
 .shadow{
-  background: white;
+  background: #EDF5E1;
   filter: drop-shadow(6px 6px 10px black);
 }
 .header-text{
@@ -97,6 +95,8 @@ ul li:not(:last-child) {
   flex-direction: row;
   align-content: center;
   z-index: 2;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 .pad{
   padding-top: 5px;

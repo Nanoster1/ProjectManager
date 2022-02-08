@@ -1,5 +1,5 @@
 const minWidth = 768;
-const signUnBtn = document.getElementById('sign-up');
+const signInBtn = document.getElementById('sign-in');
 (function() {
     var throttle = function(type, name, obj) {
         obj = obj || window;
@@ -17,15 +17,15 @@ const signUnBtn = document.getElementById('sign-up');
     throttle("resize", "optimizedResize");
 })();
 function changeAuthBtn(){
-    if(signUnBtn){
+    if(signInBtn){
         if(window.innerWidth <= minWidth){ //width of page fewer minimal width
-            if(!signUnBtn.classList.contains('hide')){
+            if(!signInBtn.classList.contains('hide')){
                 console.log("change btn");
-                signUnBtn.classList.add('hide')
+                signInBtn.classList.add('hide')
             }
         }
-        else if(signUnBtn.classList.contains('hide')){
-            signUnBtn.classList.remove('hide')
+        else if(signInBtn.classList.contains('hide')){
+            signInBtn.classList.remove('hide')
         }
     }
 }
