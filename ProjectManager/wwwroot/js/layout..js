@@ -1,5 +1,6 @@
 const minWidth = 768;
 const signInBtn = document.getElementById('sign-in');
+const footer = document.getElementById('footer');
 (function() {
     var throttle = function(type, name, obj) {
         obj = obj || window;
@@ -29,4 +30,22 @@ function changeAuthBtn(){
         }
     }
 }
+function addButtons(){
+    let sections = footer.getElementsByTagName('section');
+    if(sections){
+        for (let section in sections){
+            addBtnForli(section);
+        }
+    }
+}
+function addBtnForli(section){
+    var btn = document.createElement('button')
+    var p = section.getElementsByTagName('p')[0];
+    if(p){
+        btn.appendChild(p);
+        section.removeChild(p)
+    }
+    section.appendChild(btn);
+}
 window.addEventListener('optimizedResize', changeAuthBtn);
+window.addEventListener('optimizedResize', addButtons)
