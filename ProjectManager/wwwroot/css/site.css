@@ -24,6 +24,10 @@ body {
   margin: 0;
   padding: 0;
 }
+.default a{
+  text-decoration: none;
+  display: inline-block;
+}
 .hide{
   position: absolute;
   z-index: -1;
@@ -48,6 +52,10 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+}
+.ml-mr-20{
+  margin-right: 20px;
+  scroll-margin-right: 20px;
 }
 .login{
   margin-top:10%;

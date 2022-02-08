@@ -1,12 +1,6 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-.layout{
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-  min-width: 100%;
-}
 .footer {
   margin: 0;
   position: static;
@@ -57,14 +51,16 @@ for details on configuring this project to bundle and minify static web assets. 
   padding: 0;
   margin-top: 1.875rem;
 }
-ul li:not(:last-child) {
+.footer-section ul li:not(:last-child) {
   margin-bottom: 0.875rem;
 }
-.footer-icon-name{
-  position: relative;
-  display: inline-block;
+.hover-text{
   text-decoration: none;
-  color:white;
+  position: relative;
+  color:#EDF5E1;
+}
+.hover-text:hover{
+  color:#379683;
 }
 .footer-icon{
   position: absolute;
@@ -74,7 +70,7 @@ ul li:not(:last-child) {
   height: 1rem;
 }
 .shadow{
-  background: #EDF5E1;
+  background: #05386B;
   filter: drop-shadow(6px 6px 10px black);
 }
 .header-text{
@@ -125,13 +121,17 @@ ul li:not(:last-child) {
   width: 100px;
   z-index: 4;
 }
-.m{
-  margin-right: 20px;
-  scroll-margin-right: 20px;
-}
+
 #sing-up{
   height: 50px;
   width: 100px;
   z-index: 3
 }
-
+.tracing{
+  border: 1px solid #EDF5E1;
+  padding: 5px;
+  border-radius: 10px;
+}
+.img-n-text{
+  display: inline-block;
+}
