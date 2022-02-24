@@ -21,7 +21,6 @@ function changeAuthBtn(){
     if(signInBtn){
         if(window.innerWidth <= minWidth){ //width of page fewer minimal width
             if(!signInBtn.classList.contains('hide')){
-                console.log("change btn");
                 signInBtn.classList.add('hide')
             }
         }
@@ -32,6 +31,7 @@ function changeAuthBtn(){
 }
 function addButtons(){
     let sections = footer.getElementsByTagName('section');
+    console.log(sections);
     if(sections){
         for (let section in sections){
             addBtnForli(section);
@@ -39,8 +39,9 @@ function addButtons(){
     }
 }
 function addBtnForli(section){
-    var btn = document.createElement('button')
-    var p = section.getElementsByTagName('p')[0];
+    let btn = document.createElement('button')
+    let p = section.getElementsByTagName('p')[0];
+    console.log(p)
     if(p){
         btn.appendChild(p);
         section.removeChild(p)
